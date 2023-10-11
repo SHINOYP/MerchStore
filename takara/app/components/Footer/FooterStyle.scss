@@ -1,0 +1,85 @@
+@import '../../../styles/theme.scss';
+
+//Footer style
+footer{
+    @include flex(none,none,column);
+    height: 658px;
+    background-color: $pure-black;
+    .footer-services{
+      @include flex(center,center,column);
+      color:$pure-black;
+      background-color: $pure-white;
+      height: 236px;
+      .footer-services-container{
+        @include flex(none,none,row);
+        border-top:1px solid $pure-black;
+        width:fit-content ; 
+        height: 100%;
+        div:nth-child(1){
+          @include flex(center,center ,column );
+          gap: 30px;
+          padding: 2rem;
+          border-right: 1px solid $pure-black;
+        }
+        div:nth-child(2){
+          @include flex(center,center ,column );
+          padding: 2rem;
+          gap: 30px;
+          border-right: 1px solid $pure-black;
+        }
+        div:nth-child(3){
+          @include flex(center,center ,column );
+          padding: 2rem;
+          gap: 30px;
+          border-right: 1px solid $pure-black;
+        }
+        div:nth-child(4){
+          @include flex(center,center ,column );
+          gap: 30px;
+          padding: 2rem;
+          border-right: 1px solid $pure-white;
+        }
+        p{
+          text-align: center
+        }
+      }
+    }
+  
+    .footer-links{
+      @include flex;
+      width: 100%;
+      max-width:1650px;
+      margin-inline: auto;
+      color:$pure-white;
+      height:50%;
+      background-color: $pure-black;
+      div:nth-child(1){
+        @include flex(flex-start,center,column);
+        gap: 10px;
+        width: 40%;
+        padding-right: 4rem;
+        padding-left:0.5rem;
+      }
+      div:nth-child(2){
+        @include flex(flex-start,center,column);
+        gap: 10px;
+        width: 20%;
+        padding: 0.5rem;
+      }
+      div:nth-child(3){
+        @include flex(flex-start,center,column);
+        gap: 10px;
+        width: 20%;
+        padding: 0.5rem;
+      }
+      div:nth-child(4){
+        @include flex(flex-start,center,column);
+        gap: 10px;
+        width: 20%;
+        padding: 0.5rem;
+      }
+    }
+  
+  }
+  
+  

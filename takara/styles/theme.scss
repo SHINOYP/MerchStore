@@ -1,0 +1,18 @@
+// default colors
+$pure-black: #000000;
+$pure-white: #ffffff;
+$theme-red: #b81c27;
+$text-disabled: #ababab;
+
+//mixin functions
+@mixin flex($align: none, $justify: none, $direction: row) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin font($size, $weight) {
+  font-size: $size;
+  font-weight: $weight;
+}
