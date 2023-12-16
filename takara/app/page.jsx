@@ -89,43 +89,76 @@ export default function Home() {
           className="collections-swiper"
         >
           <SwiperSlide style={{ display: "block" }}>
-            <Image src={catebg1} alt="Picture of the author" />
+            <Image
+              src={catebg1}
+              className="collection-img"
+              alt="Picture of the author"
+            />
             <span>Category</span>
           </SwiperSlide>
           <SwiperSlide style={{ display: "block" }}>
             {" "}
-            <Image src={catebg3} alt="Picture of the author" />
+            <Image
+              src={catebg3}
+              className="collection-img"
+              alt="Picture of the author"
+            />
             <span>Category</span>
           </SwiperSlide>
           <SwiperSlide style={{ display: "block" }}>
-            <Image src={catebg1} alt="Picture of the author" />
+            <Image
+              src={catebg1}
+              className="collection-img"
+              alt="Picture of the author"
+            />
             <span>Category</span>
           </SwiperSlide>
           <SwiperSlide style={{ display: "block" }}>
-            <Image src={catebg2} alt="Picture of the author" />
+            <Image
+              src={catebg2}
+              className="collection-img"
+              alt="Picture of the author"
+            />
             <span>Category</span>
           </SwiperSlide>
           <SwiperSlide style={{ display: "block" }}>
-            <Image src={catebg1} alt="Picture of the author" />
+            <Image
+              src={catebg1}
+              className="collection-img"
+              alt="Picture of the author"
+            />
             <span>Category</span>
           </SwiperSlide>
           <SwiperSlide style={{ display: "block" }}>
             {" "}
-            <Image src={catebg3} alt="Picture of the author" />
+            <Image
+              src={catebg3}
+              className="collection-img"
+              alt="Picture of the author"
+            />
             <span>Category</span>
           </SwiperSlide>
           <SwiperSlide style={{ display: "block" }}>
-            <Image src={catebg1} alt="Picture of the author" />
+            <Image
+              src={catebg1}
+              className="collection-img"
+              alt="Picture of the author"
+            />
             <span>Category</span>
           </SwiperSlide>
           <SwiperSlide style={{ display: "block" }}>
-            <Image src={catebg2} alt="Picture of the author" />
+            <Image
+              src={catebg2}
+              className="collection-img"
+              alt="Picture of the author"
+            />
             <span>Category</span>
           </SwiperSlide>
         </Swiper>
         <LeftCircleFilled className="arrow-left" />
         <RightCircleFilled className="arrow-right" />
       </section>
+      <section></section>
     </main>
   );
 }

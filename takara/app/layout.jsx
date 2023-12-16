@@ -1,6 +1,6 @@
-import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
-import "../styles/global.scss";
+import Navbar from "./components/Layout/Navbar/Navbar";
+import Footer from "./components/Layout/Footer/Footer";
+import "./../styles/global.scss";
 import { Jost } from "next/font/google";
 
 const jost = Jost({ subsets: ["latin"] });

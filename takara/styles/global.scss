@@ -84,3 +84,23 @@ main{
        top: 25rem;
      }
    }
+
+@media screen and (max-width: $breakpoint-sm) {
+  .section-collections{
+    h1{
+      margin-top: 0.8rem;
+      @include font(1.5rem,400 );
+      height:2rem;
+    }
+    .collections-swiper{
+      height:8rem;
+    }
+    .collection-img{
+      object-fit: fill;
+      width: 100%;
+    }
+  
+  }
+
+
+}

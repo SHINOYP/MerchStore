@@ -13,9 +13,9 @@ import {
 import { Dropdown, Space, Badge } from "antd";
 import "./navbarStyle.scss";
 import Link from "next/link";
-import Cart from "../Drawers/cart";
-import SideMenu from "../Drawers/Sidenav";
-import Searchbar from "../Drawers/SearchBar";
+import Cart from "../../Drawers/cart";
+import SideMenu from "../../Drawers/Sidenav";
+import Searchbar from "../../Drawers/SearchBar";
 
 const items = [
   {
@@ -110,7 +110,7 @@ const Navbar = () => {
           <p>Crafted by Takara for the Takara</p>
           <a>Discover More</a>
         </span>
-        <div></div>
+        {/* <div></div> */}
       </div>
       <hr color="#f2f2f2" />
       <div className="nav-main">
